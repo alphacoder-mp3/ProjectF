@@ -7,7 +7,7 @@ const ArticlesPage = ({ articles }) => {
       <h3>
         Recent Posts from{' '}
         <a
-          href="https://dev.to/itsnitinr"
+          href="https://dsysd-dev.medium.com/"
           target="_blank"
           rel="noopener"
           className={styles.underline}
@@ -16,7 +16,7 @@ const ArticlesPage = ({ articles }) => {
         </a>
       </h3>
       <div className={styles.container}>
-        {articles.map((article) => (
+        {articles?.map((article) => (
           <ArticleCard key={article.id} article={article} />
         ))}
       </div>
