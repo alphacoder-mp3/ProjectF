@@ -3,54 +3,54 @@ import styles from '../styles/ContactCode.module.css';
 const contactItems = [
   {
     social: 'website',
-    link: 'nitinranganath.me',
-    href: 'https://nitinranganath.me',
+    link: '',
+    href: '/',
   },
   {
     social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    link: 'sol.dev.abhih@gmail.com',
+    href: 'mailto:sol.dev.abhih@gmail.com',
   },
   {
     social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    link: 'sol-dev-abhi',
+    href: 'https://github.com/sol-dev-abhi',
   },
   {
     social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    link: 'abhishek-singh-a3a062122',
+    href: 'https://www.linkedin.com/in/abhishek-singh-a3a062122/',
   },
   {
     social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    link: 'dsysd_dev',
+    href: 'https://twitter.com/dsysd_dev',
   },
-  {
-    social: 'instagram',
-    link: 'iamnitinr',
-    href: 'https://www.instagram.com/iamnitinr',
-  },
-  {
-    social: 'polywork',
-    link: 'nitinranganath',
-    href: 'https://www.polywork.com/nitinranganath',
-  },
-  {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
-  },
-  {
-    social: 'codepen',
-    link: 'nitinranganath',
-    href: 'https://codepen.io/itsnitinr',
-  },
-  {
-    social: 'codesandbox',
-    link: 'itsnitinr',
-    href: 'https://codesandbox.io/u/itsnitinr',
-  },
+  // {
+  //   social: 'instagram',
+  //   link: 'iamnitinr',
+  //   href: 'https://www.instagram.com/iamnitinr',
+  // },
+  // {
+  //   social: 'polywork',
+  //   link: 'nitinranganath',
+  //   href: 'https://www.polywork.com/nitinranganath',
+  // },
+  // {
+  //   social: 'telegram',
+  //   link: 'iamnitinr',
+  //   href: 'https://t.me/iamnitinr',
+  // },
+  // {
+  //   social: 'codepen',
+  //   link: 'nitinranganath',
+  //   href: 'https://codepen.io/itsnitinr',
+  // },
+  // {
+  //   social: 'codesandbox',
+  //   link: 'itsnitinr',
+  //   href: 'https://codesandbox.io/u/itsnitinr',
+  // },
 ];
 
 const ContactCode = () => {
